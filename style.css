@@ -118,6 +118,12 @@ h7 {
 
 }
 
+p99 {
+  text-align: center;
+  color: white;
+  font-size: 45px;
+}
+
 
 
 .container {
@@ -503,41 +509,4 @@ img {
 #menu-icon {
 	display: none;
 	float: right;
-}
-
-@media screen and (max-width: 1000px) {
-	.footer-column {
-		width: 50%;
-	}
-	.contact-form-container {
-		width: 100%;
-	}
-	.footer {
-		display: block;
-	}
-}
-
-@media screen and (max-width: 540px) {
-	#header-right-menu {
-		float: none;
-		display: none;
-	}
-	#header-right-menu a {
-		display: block;
-	}
-	.heading {
-		padding: 0px;
-	}
-	.tile-content {
-    	padding: 0px 20px;
-	}
-
-	.footer-column {
-		width: 100%;
-	}
-	
-	#menu-icon {
-		display: block;
-		float: right;
-	}
 }
