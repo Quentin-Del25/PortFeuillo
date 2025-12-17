@@ -124,6 +124,12 @@ p99 {
   font-size: 45px;
 }
 
+p55 {
+  color:white;
+  font-size: 25px;
+  text-align: center;
+}
+
 
 
 .container {
@@ -509,4 +515,40 @@ img {
 #menu-icon {
 	display: none;
 	float: right;
+}
+
+bodys {
+  font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333; 
+  background: linear-gradient(135deg, 667eea 0%, #764ba2 100%);
+}
+
+.containerss {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+headers {
+  text-align: center;
+  color: white;
+  padding: 60px 20px;
+  margin-bottom: 40px;
+}
+
+headers h1  {
+  font-size: 3em;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+headers p {
+  font-size: 1.3em;
+  opacity: 0.9;
+}
+
+.content {
+  background: white; 
+  border-radius: 20px;
 }
