@@ -150,6 +150,12 @@ p107{
   font-size: 20px;
 }
 
+p500 {
+  text-align: center;
+  font-weight: initial;
+  
+}
+
 .container {
   max-width: 1200px;
   margin: 20px auto;
@@ -443,7 +449,7 @@ footer a:hover {
 	margin: 0 auto;
 	line-height: 1.5;
 }
-/*  header style starts */
+
 .site-banner {
 	min-height: 400px;
 	background-image: url('images/header-image.jpg');
@@ -480,7 +486,7 @@ footer a:hover {
 	font-size: 3em;
 	margin: 0px;
 }
-/*  header style ends */
+
 
 .footer {
 	display: flex;
@@ -698,5 +704,28 @@ headers p {
   font-size: 1.5em;
   }
 }
+
+/* Bouton de téléchargement du CV */
+.download-btn {
+  display: inline-block;
+  background: #007BFF;
+  color: #ffffff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+}
+.download-btn:hover {
+  opacity: 0.9;
+}
+
+/* Wrapper centré pour le bouton de téléchargement */
+.download-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
 
 
